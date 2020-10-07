@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+//initial useState
 function HookCounter() {
   const [count, setCount] = useState(0);
   return (
